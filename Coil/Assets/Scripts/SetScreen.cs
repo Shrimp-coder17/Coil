@@ -20,4 +20,5 @@ public class SetScreen : MonoBehaviour
         Time.timeScale = 0f;
         nextLevelScreen.SetActive(set);
     }
+
 }

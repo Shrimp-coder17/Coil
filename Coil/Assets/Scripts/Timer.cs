@@ -10,6 +10,14 @@ public class Timer : MonoBehaviour
     [SerializeField] private TextMeshProUGUI timerText;
     private bool exceedTimeLimit = false;
 
+    public float ElapsedTime
+    {
+        get { return elapsedTime; }
+    }
+    public float TimeLimit
+    {
+        get { return timeLimit; }
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
