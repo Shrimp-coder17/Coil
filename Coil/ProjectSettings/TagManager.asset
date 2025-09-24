@@ -6,6 +6,8 @@ TagManager:
   tags:
   - LWall
   - RWall
+  - Bullet
+  - SceneManager
   layers:
   - Default
   - TransparentFX
