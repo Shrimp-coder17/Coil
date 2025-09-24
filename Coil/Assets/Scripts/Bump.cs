@@ -31,5 +31,6 @@ public class Bump : MonoBehaviour
             transform.localEulerAngles = new Vector3(0, 0, 0);
             rb.linearVelocity = direction * speed;
         }
+
     }
 }

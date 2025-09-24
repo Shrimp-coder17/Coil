@@ -8,6 +8,7 @@ TagManager:
   - RWall
   - Bullet
   - SceneManager
+  - Enemy
   layers:
   - Default
   - TransparentFX
