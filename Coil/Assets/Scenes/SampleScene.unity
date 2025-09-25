@@ -1010,7 +1010,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &212772110
 Transform:
   m_ObjectHideFlags: 0
@@ -1071,7 +1071,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2143,7 +2143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.16862746}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2846,7 +2846,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  m_Sprite: {fileID: -8868272330977153355, guid: e8fdc24498a5afc4a81d413be3578416, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2866,8 +2866,8 @@ Transform:
   m_GameObject: {fileID: 1164120876}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.49, y: -3.43, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -2.49, y: -3.12, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 212772110}
@@ -4151,6 +4151,22 @@ PrefabInstance:
     - target: {fileID: 5461944412208264075, guid: 68c5c74c456cf5e4cb51a757212387f9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734844482077816574, guid: 68c5c74c456cf5e4cb51a757212387f9, type: 3}
+      propertyPath: m_Size.x
+      value: 0.7026894
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734844482077816574, guid: 68c5c74c456cf5e4cb51a757212387f9, type: 3}
+      propertyPath: m_Size.y
+      value: 0.75774676
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734844482077816574, guid: 68c5c74c456cf5e4cb51a757212387f9, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.033034682
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734844482077816574, guid: 68c5c74c456cf5e4cb51a757212387f9, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0027528703
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
