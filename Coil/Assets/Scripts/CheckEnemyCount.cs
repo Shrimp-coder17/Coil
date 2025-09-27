@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class CheckEnemyCount : MonoBehaviour
@@ -23,8 +25,14 @@ public class CheckEnemyCount : MonoBehaviour
         enemyNum--;
         if(enemyNum <= 0)
         {
-            scoring.GiveScore();
-            setScreen.SetNextLevelScreen(true);
+            StartCoroutine(SetNextLevel());
         }
+    }
+
+    private IEnumerator SetNextLevel()
+    {
+        scoring.GiveScore();
+        yield return new WaitForSeconds(3f);
+        setScreen.SetNextLevelScreen(true);
     }
 }

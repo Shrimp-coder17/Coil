@@ -27,7 +27,7 @@ public class Bullet : MonoBehaviour
     private IEnumerator DestroyBullet()
     {
         Debug.Log("Destroying Bullet!");
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2f);
         Destroy(this.gameObject);
     }
 

@@ -48,6 +48,18 @@ public class SetScreen : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+    public void GoLevel2()
+    {
+        SceneManager.LoadScene("Level2");
+        Time.timeScale = 1f;
+    }
+
+    public void GoLevel3()
+    {
+        SceneManager.LoadScene("Level3");
+        Time.timeScale = 1f;
+    }
+
     public void GoLevels()
     {
         SceneManager.LoadScene("Levels");

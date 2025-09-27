@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - SceneManager
   - Enemy
+  - Box
   layers:
   - Default
   - TransparentFX
